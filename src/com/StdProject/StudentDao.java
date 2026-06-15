@@ -8,7 +8,8 @@ public class StudentDao {
 		int id,
 		String name,
 		String email,
-		int age){
+		int age)
+	{
 		
 		String sql = "INSERT INTO Student VALUES(?,?,?,?)";
 		
